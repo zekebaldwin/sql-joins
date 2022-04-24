@@ -1,0 +1,4 @@
+-- write your queries here--
+--SELECT * FROM owners JOIN vehicles on owners.id=vehicles.owner_id--
+--SELECT first_name, last_name, COUNT(owner_id) as total FROM owners join vehicles on owners.id=vehicles.owner_id GROUP BY (first_name, last_name) ORDER BY total DESC--
+--SELECT first_name, last_name, COUNT(owner_id) as total, ROUND(CAST(AVG(price) as numeric),0) FROM owners join vehicles on owners.id=vehicles.owner_id GROUP BY (first_name, last_name) ORDER BY total DESC;--
